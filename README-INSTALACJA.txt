@@ -1,0 +1,1 @@
+Wgraj wszystkie pliki na hosting HTTPS (np. GitHub Pages). Na iPhonie otwórz adres w Safari, wybierz Udostępnij, a następnie Dodaj do ekranu początkowego. PWA nie instaluje się bezpośrednio z aplikacji Pliki. Pierwsze uruchomienie wymaga internetu dla Tailwind CSS i Lucide; później zasoby są buforowane.
