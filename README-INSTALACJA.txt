@@ -1,1 +1,11 @@
-Wersja v7: Count-in pokazuje dokładne metrum i podział rytmiczny, przechodzi do START bez przerwy, a takt 1 zaczyna się natychmiast po overlayu. W trybie głosowym klik jest wyłączony i używany jest angielski głos systemowy iPhone’a. Po aktualizacji hostingu usuń starą ikonę PWA, odśwież stronę w Safari i dodaj aplikację ponownie.
+METRONOM STUDIO WAV v12
+
+1. Skopiuj własne pliki Samantha WAV do katalogu audio/.
+2. Uruchom z katalogu projektu: python3 -m http.server 8080
+3. Na iPhonie otwórz adres Maca w Safari.
+
+Zmiany v12:
+- naprawiono Tap Tempo; oblicza BPM ze średniej maksymalnie 6 ostatnich odstępów, a przerwa ponad 2,5 s rozpoczyna nową serię,
+- usunięto przyciski TEST i komunikat diagnostyczny WAV,
+- dołączono pełny manifest, Service Worker, wake.mp4 i ikony,
+- katalog audio pozostawiono do podmiany.
